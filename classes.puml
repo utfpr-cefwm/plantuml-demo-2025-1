@@ -2,6 +2,7 @@
 
 top to bottom direction
 
+' Esta é uma classe:
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
