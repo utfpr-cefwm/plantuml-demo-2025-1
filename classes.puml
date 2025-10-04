@@ -25,4 +25,8 @@ class AlertaAbsoluto {
 Alerta <|-- AlertaRelativo
 Alerta <|-- AlertaAbsoluto
 
+class NoFim {
+  - atributo
+}
+
 @enduml
