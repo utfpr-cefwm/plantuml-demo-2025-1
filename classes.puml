@@ -19,11 +19,15 @@ class AlertaRelativo {
 }
 
 class AlertaAbsoluto {
-  + ajustar(hor)
-  constructor(desc, hor)
+  + ajustar(horAbs)
+  constructor(desc, horAbs)
 }
 
 Alerta <|-- AlertaRelativo
 Alerta <|-- AlertaAbsoluto
+
+class NoFim {
+  - atributo
+}
 
 @enduml
