@@ -12,6 +12,7 @@ class Alerta <<abstract>> {
 }
 note left of Alerta : Alerta programado.\n\nPossui uma descrição que é\nexibida com a conclusão do\ntimer, na forma de um alerta.
 
+' Novo comentário:
 class AlertaRelativo {
   constructor(desc, horExpr)
   + ajustar(horExpr)
